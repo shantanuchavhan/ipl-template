@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar nav{
+    color: white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: auto;
+    background-color: #19398a;
+
+}
+
+#navbar nav div span{
+    margin-left: 80px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+#navbar nav button{
+    padding: 6px 10px;
+    margin-left: 16px;
+    border-radius: 2px;
+    background-color: rgb(255, 95, 95);
+    border: none;
+    color:white;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+
+}
+.team .players{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.team .players .card{
+    display: inline;
+    text-align: center;
+    border: 1.3px solid black;
+    
+}
+
+
+.team .players .card img{
+    height: 200px;
+    width: 200px;
+
+}
+.team .players .card p{
+    border-top: 1.3px solid black
+    ;
+    padding: 16px;
+    background-color: #19398a;
+    color: white;
+}
+
+
+#mumbai{
+    display: block;
+}
+
+#chennai{
+    display: block;
+}
+
+#banglore{
+    display: block;
+}
+/* #19398a */
+
+
